@@ -129,7 +129,7 @@ class MftSession:
         try:
             self.file_mft = open(self.options.filename, 'rb')
         except:
-            print "Unable to open file: %s" % self.options.filename
+            print("Unable to open file: %s" % self.options.filename)
             sys.exit()
 
         if self.options.output is not None:

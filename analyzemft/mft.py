@@ -741,12 +741,12 @@ def decode_volume_info(s, options):
     }
 
     if options.debug:
-        print "+Volume Info"
-        print "++F1%d" % d['f1']
-        print "++Major Version: %d" % d['maj_ver']
-        print "++Minor Version: %d" % d['min_ver']
-        print "++Flags: %d" % d['flags']
-        print "++F2: %d" % d['f2']
+        print("+Volume Info")
+        print("++F1%d" % d['f1'])
+        print("++Major Version: %d" % d['maj_ver'])
+        print("++Minor Version: %d" % d['min_ver'])
+        print("++Flags: %d" % d['flags'])
+        print("++F2: %d" % d['f2'])
 
     return d
 
