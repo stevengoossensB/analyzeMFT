@@ -15,8 +15,8 @@ import ctypes
 import struct
 from optparse import OptionParser
 
-import bitparse
-import mftutils
+from analyzemft import bitparse
+from analyzemft import mftutils
 
 
 def parse_record(raw_record, options):

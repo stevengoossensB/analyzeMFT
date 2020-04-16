@@ -17,7 +17,7 @@ import os
 import sys
 from optparse import OptionParser
 
-import mft
+from analyzemft import mft
 
 
 SIAttributeSizeXP = 72
