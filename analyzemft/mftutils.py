@@ -49,8 +49,8 @@ def hexdump(chars, sep, width):
         line = chars[:width]
         chars = chars[width:]
         line = line.ljust(width, '\000')
-        print "%s%s%s" % (sep.join("%02x" % ord(c) for c in line),
-                          sep, quotechars(line))
+        print("%s%s%s" % (sep.join("%02x" % ord(c) for c in line),
+                          sep, quotechars(line)))
 
 
 def quotechars(chars):
